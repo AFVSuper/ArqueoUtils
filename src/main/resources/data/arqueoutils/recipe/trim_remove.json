@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_trim",
+  "addition": "minecraft:flint",
+  "base": "#minecraft:trimmable_armor",
+  "pattern": "minecraft:silence",
+  "template": "arqueoutils:empty_trim_smithing_template"
+}

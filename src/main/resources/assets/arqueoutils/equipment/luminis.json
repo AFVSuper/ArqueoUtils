@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "dyeable": {
+          "color_when_undyed": 16777215
+        },
+        "texture": "arqueoutils:luminis"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "dyeable": {
+          "color_when_undyed": 16777215
+        },
+        "texture": "arqueoutils:luminis"
+      }
+    ]
+  }
+}

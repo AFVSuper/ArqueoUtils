@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_portal_radio.desc"
+  },
+  "length_in_seconds": 45.55,
+  "sound_event": "arqueoutils:portal_radio"
+}

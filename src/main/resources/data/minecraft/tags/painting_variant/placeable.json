@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:arqueo6",
+    "minecraft:arqueofort",
+    "minecraft:atlantis",
+    "minecraft:darkcitadel",
+    "minecraft:techlabs"
+  ]
+}

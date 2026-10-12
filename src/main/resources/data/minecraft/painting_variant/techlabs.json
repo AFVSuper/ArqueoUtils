@@ -1,0 +1,10 @@
+{
+  "asset_id": "arqueoutils:techlabs",
+  "title": {
+    "color": "yellow",
+    "translate": "painting.arqueoutils.techlabs.title",
+    "fallback": "techlabs.png"
+  },
+  "height": 3,
+  "width": 3
+}

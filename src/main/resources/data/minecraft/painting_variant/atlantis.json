@@ -1,0 +1,10 @@
+{
+  "asset_id": "arqueoutils:atlantis",
+  "title": {
+    "color": "yellow",
+    "translate": "painting.arqueoutils.atlantis.title",
+    "fallback": "atlantis.png"
+  },
+  "height": 3,
+  "width": 3
+}

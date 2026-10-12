@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_balatro.desc"
+  },
+  "length_in_seconds": 241.17,
+  "sound_event": "arqueoutils:balatro"
+}

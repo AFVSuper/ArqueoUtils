@@ -1,0 +1,69 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "arqueoutils:scroll_type",
+    "cases": [
+      {
+        "when": "damage",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/scroll/damage"
+        }
+      },
+      {
+        "when": "armor",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/scroll/armor"
+        }
+      },
+      {
+        "when": "attack_speed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/scroll/attack_speed"
+        }
+      },
+      {
+        "when": "experience",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/scroll/experience"
+        }
+      },
+      {
+        "when": "health",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/scroll/health"
+        }
+      },
+      {
+        "when": "speed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/scroll/speed"
+        }
+      },
+      {
+        "when": "toughness",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/scroll/toughness"
+        }
+      },
+      {
+        "when": "oxygen",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/scroll/oxygen"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "arqueoutils:item/scroll/unidentified"
+    }
+  }
+}

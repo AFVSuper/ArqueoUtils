@@ -1,0 +1,76 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "arqueoutils:ore_powder_type",
+    "cases": [
+      {
+        "when": "coal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/coal"
+        }
+      },
+      {
+        "when": "copper",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/copper"
+        }
+      },
+      {
+        "when": "diamond",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/diamond"
+        }
+      },
+      {
+        "when": "emerald",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/emerald"
+        }
+      },
+      {
+        "when": "gold",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/gold"
+        }
+      },
+      {
+        "when": "iron",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/iron"
+        }
+      },
+      {
+        "when": "redstone",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/redstone"
+        }
+      },
+      {
+        "when": "lapis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/lapis"
+        }
+      },
+      {
+        "when": "quartz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "arqueoutils:item/powder/quartz"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "arqueoutils:item/powder/coal"
+    }
+  }
+}

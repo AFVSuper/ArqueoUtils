@@ -1,0 +1,10 @@
+{
+  "asset_id": "arqueoutils:arqueofort",
+  "title": {
+    "color": "yellow",
+    "translate": "painting.arqueoutils.arqueofort.title",
+    "fallback": "arqueofort.png"
+  },
+  "height": 3,
+  "width": 3
+}

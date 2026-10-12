@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_roaring_knight.desc"
+  },
+  "length_in_seconds": 121.94,
+  "sound_event": "arqueoutils:roaring_knight"
+}

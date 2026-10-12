@@ -1,0 +1,6 @@
+{
+  "parent": "arqueoutils:item/modelcard/afv/vampire/bow",
+  "textures": {
+    "layer0": "arqueoutils:item/modelcard/afv/vampire/bow_pulling_2"
+  }
+}

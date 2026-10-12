@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_paint_it_black.desc"
+  },
+  "length_in_seconds": 145.34,
+  "sound_event": "arqueoutils:paint_it_black"
+}

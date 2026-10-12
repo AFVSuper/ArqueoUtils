@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "completed=false,color=white":  { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=orange": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=magenta":{ "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=light_blue": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=yellow": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=lime": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=pink": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=gray": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=light_gray": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=cyan": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=purple": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=blue": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=brown": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=green": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=red": { "model": "arqueoutils:block/ctm_core_empty" },
+    "completed=false,color=black": { "model": "arqueoutils:block/ctm_core_empty" },
+
+    "completed=true,color=white": { "model": "arqueoutils:block/ctm_core_white" },
+    "completed=true,color=orange": { "model": "arqueoutils:block/ctm_core_orange" },
+    "completed=true,color=magenta": { "model": "arqueoutils:block/ctm_core_magenta" },
+    "completed=true,color=light_blue": { "model": "arqueoutils:block/ctm_core_light_blue" },
+    "completed=true,color=yellow": { "model": "arqueoutils:block/ctm_core_yellow" },
+    "completed=true,color=lime": { "model": "arqueoutils:block/ctm_core_lime" },
+    "completed=true,color=pink": { "model": "arqueoutils:block/ctm_core_pink" },
+    "completed=true,color=gray": { "model": "arqueoutils:block/ctm_core_gray" },
+    "completed=true,color=light_gray": { "model": "arqueoutils:block/ctm_core_light_gray" },
+    "completed=true,color=cyan": { "model": "arqueoutils:block/ctm_core_cyan" },
+    "completed=true,color=purple": { "model": "arqueoutils:block/ctm_core_purple" },
+    "completed=true,color=blue": { "model": "arqueoutils:block/ctm_core_blue" },
+    "completed=true,color=brown": { "model": "arqueoutils:block/ctm_core_brown" },
+    "completed=true,color=green": { "model": "arqueoutils:block/ctm_core_green" },
+    "completed=true,color=red": { "model": "arqueoutils:block/ctm_core_red" },
+    "completed=true,color=black": { "model": "arqueoutils:block/ctm_core_black" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_dance_of_the_knights.desc"
+  },
+  "length_in_seconds": 307.83,
+  "sound_event": "arqueoutils:dance_of_the_knights"
+}

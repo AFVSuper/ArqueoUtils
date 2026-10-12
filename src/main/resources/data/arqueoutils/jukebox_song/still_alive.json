@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_still_alive.desc"
+  },
+  "length_in_seconds": 184.92,
+  "sound_event": "arqueoutils:still_alive"
+}

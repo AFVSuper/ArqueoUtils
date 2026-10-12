@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_crypteque.desc"
+  },
+  "length_in_seconds": 165.61,
+  "sound_event": "arqueoutils:crypteque"
+}

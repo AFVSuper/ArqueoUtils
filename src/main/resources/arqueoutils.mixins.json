@@ -1,0 +1,48 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.afv.arqueoutils.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractCauldronBlockMixin",
+    "AnvilScreenHandlerMixin",
+    "ApplyBonusCountMixin",
+    "BlockMixin",
+    "BrewingStandMixin",
+    "BundleMixin",
+    "EnchantedCountIncreaseMixin",
+    "EndGatewayMixin",
+    "EndPortalBlockMixin",
+    "EquippableComponentMixin",
+    "ExperienceOrbEntityMixin",
+    "ForgingScreenHandlerAccessor",
+    "HungerManagerMixin",
+    "ItemEntityMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "LootableInventoryMixin",
+    "MinecraftServerMixin",
+    "OminousItemSpawnerMixin",
+    "PlayerAdvancementTrackerMixin",
+    "PlayerEntityMixin",
+    "PlayerListS2CPacketAccessor",
+    "PlayerManagerMixin",
+    "PlayerScreenHandlerMixin",
+    "ScreenHandlerMixin",
+    "ServerPlayerEntityMixin",
+    "ServerWorldMixin",
+    "SmithingScreenHandlerMixin",
+    "StatusEffectInstanceAccessor",
+    "TrialSpawnerLogicMixin",
+    "TridentEntityMixin",
+    "VaultServerMixin",
+    "WanderingTraderEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

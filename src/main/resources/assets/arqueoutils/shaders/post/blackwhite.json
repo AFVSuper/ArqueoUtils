@@ -1,0 +1,10 @@
+{
+  "targets": ["swap"],
+  "passes": [
+    {
+      "name": "arqueoutils:blackwhite",
+      "intarget": "minecraft:main",
+      "outtarget": "swap"
+    }
+  ]
+}

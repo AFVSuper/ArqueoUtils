@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "arqueoutils",
+  "version": "${version}",
+  "name": "ArqueoUtils",
+  "description": "Main mod for ArqueoTerraSMP Season 6",
+  "authors": ["AFVSuper"],
+  "contributors": ["HoradelJuego"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/arqueoutils/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.afv.arqueoutils.client.ArqueoUtilsDataGenerator"
+    ],
+    "client": [
+      "org.afv.arqueoutils.client.ArqueoUtilsClient"
+    ],
+    "main": [
+      "org.afv.arqueoutils.ArqueoUtils"
+    ]
+  },
+  "mixins": [
+    "arqueoutils.mixins.json",
+    {
+      "config": "arqueoutils.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

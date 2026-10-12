@@ -1,0 +1,10 @@
+{
+  "asset_id": "arqueoutils:arqueo6",
+  "title": {
+    "color": "yellow",
+    "translate": "painting.arqueoutils.arqueo6.title",
+    "fallback": "arqueo6.png"
+  },
+  "height": 2,
+  "width": 2
+}

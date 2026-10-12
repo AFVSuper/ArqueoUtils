@@ -1,0 +1,10 @@
+{
+  "asset_id": "arqueoutils:darkcitadel",
+  "title": {
+    "color": "yellow",
+    "translate": "painting.arqueoutils.darkcitadel.title",
+    "fallback": "darkcitadel.png"
+  },
+  "height": 3,
+  "width": 3
+}

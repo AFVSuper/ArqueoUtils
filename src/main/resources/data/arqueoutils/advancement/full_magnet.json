@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "arqueoutils:magnet",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {"translate":"advancements.arqueoutils.full_magnet"},
+    "description": {"color":"dark_purple","translate":"advancements.arqueoutils.full_magnet.desc"},
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "arqueoutils:magnet",
+  "criteria": {
+    "full_magnet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:magnet",
+            "predicates": {
+              "enchantments": [
+                {
+                  "enchantments": "arqueoutils:attraction",
+                  "levels": {
+                    "min": 3
+                  }
+                },
+                {
+                  "enchantments": "arqueoutils:magnetic_field",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "full_magnet"
+    ]
+  ]
+}

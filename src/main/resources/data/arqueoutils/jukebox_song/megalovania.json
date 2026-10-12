@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_megalovania.desc"
+  },
+  "length_in_seconds": 156.01,
+  "sound_event": "arqueoutils:megalovania"
+}

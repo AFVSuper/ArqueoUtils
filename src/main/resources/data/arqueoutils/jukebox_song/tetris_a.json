@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_tetris_a.desc"
+  },
+  "length_in_seconds": 223.07,
+  "sound_event": "arqueoutils:tetris_a"
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "arqueoutils:attraction",
+    "arqueoutils:magnetic_field",
+    "arqueoutils:pulverizing"
+  ]
+}

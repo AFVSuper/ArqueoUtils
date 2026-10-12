@@ -1,0 +1,130 @@
+{
+  "balatro": {
+    "sounds": [
+      {
+        "name": "arqueoutils:balatro",
+        "stream": true
+      }
+    ]
+  },
+  "cogwork_dancers": {
+    "sounds": [
+      {
+        "name": "arqueoutils:cogwork_dancers",
+        "stream": true
+      }
+    ]
+  },
+  "crypteque": {
+    "sounds": [
+      {
+        "name": "arqueoutils:crypteque",
+        "stream": true
+      }
+    ]
+  },
+  "dance_of_the_knights": {
+    "sounds": [
+      {
+        "name": "arqueoutils:dance_of_the_knights",
+        "stream": true
+      }
+    ]
+  },
+  "dark_night": {
+    "sounds": [
+      {
+        "name": "arqueoutils:dark_night",
+        "stream": true
+      }
+    ]
+  },
+  "gerudo_valley": {
+    "sounds": [
+      {
+        "name": "arqueoutils:gerudo_valley",
+        "stream": true
+      }
+    ]
+  },
+  "glory_arstotszka": {
+    "sounds": [
+      {
+        "name": "arqueoutils:glory_arstotszka",
+        "stream": true
+      }
+    ]
+  },
+  "gourmet_race": {
+    "sounds": [
+      {
+        "name": "arqueoutils:gourmet_race",
+        "stream": true
+      }
+    ]
+  },
+  "malenia": {
+    "sounds": [
+      {
+        "name": "arqueoutils:malenia",
+        "stream": true
+      }
+    ]
+  },
+  "mantis_lords": {
+    "sounds": [
+      {
+        "name": "arqueoutils:mantis_lords",
+        "stream": true
+      }
+    ]
+  },
+  "megalovania": {
+    "sounds": [
+      {
+        "name": "arqueoutils:megalovania",
+        "stream": true
+      }
+    ]
+  },
+  "paint_it_black": {
+    "sounds": [
+      {
+        "name": "arqueoutils:paint_it_black",
+        "stream": true
+      }
+    ]
+  },
+  "portal_radio": {
+    "sounds": [
+      {
+        "name": "arqueoutils:portal_radio",
+        "stream": true
+      }
+    ]
+  },
+  "roaring_knight": {
+    "sounds": [
+      {
+        "name": "arqueoutils:roaring_knight",
+        "stream": true
+      }
+    ]
+  },
+  "still_alive": {
+    "sounds": [
+      {
+        "name": "arqueoutils:still_alive",
+        "stream": true
+      }
+    ]
+  },
+  "tetris_a": {
+    "sounds": [
+      {
+        "name": "arqueoutils:tetris_a",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_malenia.desc"
+  },
+  "length_in_seconds": 224.31,
+  "sound_event": "arqueoutils:malenia"
+}

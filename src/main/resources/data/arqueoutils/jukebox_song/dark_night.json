@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_dark_night.desc"
+  },
+  "length_in_seconds": 171.93,
+  "sound_event": "arqueoutils:dark_night"
+}

@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.afv.arqueoutils.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AnvilScreenMixin",
+    "ArmorFeatureRendererMixin",
+    "BundleTooltipComponentMixin",
+    "ClientAdvancementManagerAccessor",
+    "ClientPlayNetworkHandlerAccessor",
+    "DisconnectScreenMixin",
+    "EquipmentRendererInvoker",
+    "EquipmentRendererMixin",
+    "FogColorMixin",
+    "GameRendererAccessor",
+    "HandledScreenMixin",
+    "InGameHudMixin",
+    "InventoryScreenMixin",
+    "MessageHandlerMixin",
+    "MinecraftClientMixin",
+    "PlayerEntityRendererMixin",
+    "PlayerNameSuggestionMixin",
+    "StatusEffectsDisplayMixin",
+    "TabHideMixin",
+    "VoidTotemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

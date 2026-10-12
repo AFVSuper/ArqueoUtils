@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.arqueoutils.disc_mantis_lords.desc"
+  },
+  "length_in_seconds": 105.88,
+  "sound_event": "arqueoutils:mantis_lords"
+}
