@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "M": "minecraft:smooth_stone",
+    "S": "minecraft:stone"
+  },
+  "pattern": [
+    "SMS",
+    "SIS",
+    "SMS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arqueoutils:empty_trim_smithing_template"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:root",
+  "criteria": {
+    "model_card": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:model_card"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.model_card.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:model_card"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.model_card"
+    }
+  },
+  "requirements": [
+    [
+      "model_card"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

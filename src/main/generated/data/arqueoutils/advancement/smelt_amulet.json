@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:blazing_heart",
+  "criteria": {
+    "smelt_amulet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:smelt_amulet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.smelt_amulet.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:smelt_amulet"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.smelt_amulet"
+    }
+  },
+  "requirements": [
+    [
+      "smelt_amulet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

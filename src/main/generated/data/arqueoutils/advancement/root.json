@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "get_online": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "background": "minecraft:block/cobbled_deepslate",
+    "description": {
+      "translate": "advancements.arqueoutils.arqueo_root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:archaic_diamond"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.arqueo_root"
+    }
+  },
+  "requirements": [
+    [
+      "get_online"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

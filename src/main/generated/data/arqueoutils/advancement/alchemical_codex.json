@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:empty_amulet",
+  "criteria": {
+    "alchemical_codex": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:alchemist_tome"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.alchemical_codex.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:alchemist_tome"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.alchemical_codex"
+    }
+  },
+  "requirements": [
+    [
+      "alchemical_codex"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

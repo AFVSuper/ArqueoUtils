@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:empty_amulet",
+  "criteria": {
+    "blazing_heart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:blazing_heart"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.blazing_heart.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:blazing_heart"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.blazing_heart"
+    }
+  },
+  "requirements": [
+    [
+      "blazing_heart"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "arqueoutils:block/elytra_dispenser_top",
+    "side": "arqueoutils:block/elytra_dispenser_side"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "minecraft:chorus_flower",
+    "D": "minecraft:dragon_breath",
+    "T": "minecraft:totem_of_undying"
+  },
+  "pattern": [
+    "DCD",
+    "CTC",
+    "DCD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arqueoutils:void_idol"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:diamond",
+    "I": "minecraft:iron_ingot",
+    "P": "minecraft:paper"
+  },
+  "pattern": [
+    "IDI",
+    "IPI",
+    "IDI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arqueoutils:model_card"
+  }
+}

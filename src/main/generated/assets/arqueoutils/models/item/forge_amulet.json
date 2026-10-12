@@ -1,0 +1,6 @@
+{
+  "parent": "arqueoutils:item/amulet_2",
+  "textures": {
+    "layer0": "arqueoutils:item/forge_amulet"
+  }
+}

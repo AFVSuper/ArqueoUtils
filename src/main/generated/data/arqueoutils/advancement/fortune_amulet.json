@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:perfect_jade",
+  "criteria": {
+    "fortune_amulet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:fortune_amulet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.fortune_amulet.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:fortune_amulet"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.fortune_amulet"
+    }
+  },
+  "requirements": [
+    [
+      "fortune_amulet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

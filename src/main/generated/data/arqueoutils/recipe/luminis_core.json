@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "minecraft:netherite_scrap",
+    "Q": "minecraft:quartz"
+  },
+  "pattern": [
+    "NQN",
+    "QQQ",
+    "NQN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arqueoutils:luminis_core"
+  }
+}

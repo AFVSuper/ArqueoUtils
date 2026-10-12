@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_luminis_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:luminis_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arqueoutils:luminis_leggings_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_luminis_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arqueoutils:luminis_leggings_recipe"
+    ]
+  }
+}

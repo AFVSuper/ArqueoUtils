@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:root",
+  "criteria": {
+    "get_invis_ink": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:invisible_ink"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.invis_ink.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:invisible_ink"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.invis_ink"
+    }
+  },
+  "requirements": [
+    [
+      "get_invis_ink"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

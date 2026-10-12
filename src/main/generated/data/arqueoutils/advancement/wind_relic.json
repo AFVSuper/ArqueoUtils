@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:root",
+  "criteria": {
+    "wind_relic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:wind_relic"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.wind_relic.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:wind_relic"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.wind_relic"
+    }
+  },
+  "requirements": [
+    [
+      "wind_relic"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

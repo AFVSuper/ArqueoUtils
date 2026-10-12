@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:elven_silver",
+  "criteria": {
+    "forge_amulet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:forge_amulet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.forge_amulet.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:forge_amulet"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.forge_amulet"
+    }
+  },
+  "requirements": [
+    [
+      "forge_amulet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

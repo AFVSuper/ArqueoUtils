@@ -1,0 +1,26 @@
+{
+  "parent": "arqueoutils:invis_ink",
+  "criteria": {
+    "invis_frame": {
+      "trigger": "minecraft:invis_frame_criterion"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.invis_frame.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:item_frame"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.invis_frame"
+    }
+  },
+  "requirements": [
+    [
+      "invis_frame"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

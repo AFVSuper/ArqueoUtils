@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:bastion_treasure",
+  "criteria": {
+    "looting_amulet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:looting_amulet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.looting_amulet.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:looting_amulet"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.looting_amulet"
+    }
+  },
+  "requirements": [
+    [
+      "looting_amulet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

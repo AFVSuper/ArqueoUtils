@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:root",
+  "criteria": {
+    "get_luminis_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:luminis_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.luminis_core.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:luminis_core"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.luminis_core"
+    }
+  },
+  "requirements": [
+    [
+      "get_luminis_core"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

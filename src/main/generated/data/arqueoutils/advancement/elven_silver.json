@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:empty_amulet",
+  "criteria": {
+    "elven_silver": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:silver_plates"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.elven_silver.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:silver_plates"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.elven_silver"
+    }
+  },
+  "requirements": [
+    [
+      "elven_silver"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

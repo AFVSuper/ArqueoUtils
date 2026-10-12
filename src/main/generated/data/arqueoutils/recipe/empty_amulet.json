@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:netherite_ingot",
+    "S": "minecraft:nether_star"
+  },
+  "pattern": [
+    "INI",
+    "NSN",
+    "INI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "arqueoutils:empty_amulet"
+  }
+}

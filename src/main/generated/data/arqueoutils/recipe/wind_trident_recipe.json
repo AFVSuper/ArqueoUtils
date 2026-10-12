@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "arqueoutils:wind_relic",
+  "base": "minecraft:trident",
+  "result": {
+    "id": "arqueoutils:wind_trident"
+  },
+  "template": "minecraft:tide_armor_trim_smithing_template"
+}

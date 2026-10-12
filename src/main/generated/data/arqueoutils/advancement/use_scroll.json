@@ -1,0 +1,32 @@
+{
+  "parent": "arqueoutils:get_scroll",
+  "criteria": {
+    "use_scroll": {
+      "conditions": {
+        "quality": 1
+      },
+      "trigger": "minecraft:apply_scroll_criterion"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.use_scroll.desc"
+    },
+    "icon": {
+      "components": {
+        "arqueoutils:scroll_type": "speed"
+      },
+      "count": 1,
+      "id": "arqueoutils:upgrade_scroll"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.use_scroll"
+    }
+  },
+  "requirements": [
+    [
+      "use_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

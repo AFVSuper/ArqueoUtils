@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:root",
+  "criteria": {
+    "empty_trim": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:empty_trim_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.trim_remover.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:empty_trim_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.trim_remover"
+    }
+  },
+  "requirements": [
+    [
+      "empty_trim"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "minecraft:leather",
+    "P": "arqueoutils:ore_powder",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    " S ",
+    "LPL",
+    " L "
+  ],
+  "result": {
+    "count": 1,
+    "id": "arqueoutils:ore_powder_bag"
+  }
+}

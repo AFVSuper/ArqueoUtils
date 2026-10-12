@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:alchemical_codex",
+  "criteria": {
+    "alchemist_amulet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:potion_amulet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.alchemist_amulet.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:potion_amulet"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.alchemist_amulet"
+    }
+  },
+  "requirements": [
+    [
+      "alchemist_amulet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

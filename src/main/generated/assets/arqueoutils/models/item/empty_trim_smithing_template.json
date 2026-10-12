@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arqueoutils:item/empty_trim_smithing_template"
+  }
+}

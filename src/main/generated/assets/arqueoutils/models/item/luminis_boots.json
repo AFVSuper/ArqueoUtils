@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arqueoutils:item/luminis_boots",
+    "layer1": "arqueoutils:item/luminis_boots_overlay"
+  }
+}

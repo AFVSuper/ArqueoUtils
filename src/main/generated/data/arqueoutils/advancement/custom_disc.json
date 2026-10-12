@@ -1,0 +1,176 @@
+{
+  "parent": "arqueoutils:root",
+  "criteria": {
+    "balatro": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_balatro"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cogwork_dancers": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_cogwork_dancers"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "crypteque": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_crypteque"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dance_of_the_knights": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_dance_of_the_knights"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dark_night": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_dark_night"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gerudo_valley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_gerudo_valley"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gourmet_race": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_gourmet_race"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "malenia": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_malenia"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "megalovania": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_megalovania"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "papers_please": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_glory_arstotszka"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "portal_radio": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_portal_radio"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "roaring_knight": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_roaring_knight"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "still_alive": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_still_alive"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tetris": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:disc_tetris_a"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.custom_disc.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:disc_roaring_knight"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.custom_disc"
+    }
+  },
+  "requirements": [
+    [
+      "megalovania",
+      "dance_of_the_knights",
+      "portal_radio",
+      "still_alive",
+      "balatro",
+      "malenia",
+      "tetris",
+      "cogwork_dancers",
+      "crypteque",
+      "dark_night",
+      "roaring_knight",
+      "gourmet_race",
+      "papers_please",
+      "gerudo_valley"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

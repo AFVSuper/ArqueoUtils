@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:empty_amulet",
+  "criteria": {
+    "perfect_jade": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:perfect_jade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.perfect_jade.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:perfect_jade"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.perfect_jade"
+    }
+  },
+  "requirements": [
+    [
+      "perfect_jade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

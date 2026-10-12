@@ -1,0 +1,10 @@
+// 1.21.11	-999999999-01-01T00:00:00	ArqueoUtils/Tags for minecraft:item
+fa538bd2653cab2621cf61317583e9c99e99e573 data/arqueoutils/tags/item/repairs_luminis_armor.json
+431dfac87ae24607a7407ebff1ef3b0669db7502 data/arqueoutils/tags/item/scroll_armor_items.json
+405c3de0dc0285e100749771eb1c7f1e6dc14f57 data/arqueoutils/tags/item/scroll_damage_items.json
+f6b07f461853466b756795f94d886227db06dfb3 data/arqueoutils/tags/item/scroll_oxygen_items.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/arqueoutils/tags/item/scroll_range_items.json
+0bf3add22c30b11c2c728082b539964b2934d4f2 data/arqueoutils/tags/item/scroll_speed_items.json
+a5d98fce8b59a02e04fdf901d0624608398e3759 data/arqueoutils/tags/item/scroll_upgradable_items.json
+0d243f1af0933b66186ef079b2112978a0ce41a4 data/minecraft/tags/item/dyeable.json
+0d243f1af0933b66186ef079b2112978a0ce41a4 data/minecraft/tags/item/trimmable_armor.json

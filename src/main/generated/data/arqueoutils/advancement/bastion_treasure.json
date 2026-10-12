@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:empty_amulet",
+  "criteria": {
+    "bastion_treasure": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:bastion_treasure"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.bastion_treasure.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:bastion_treasure"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.bastion_treasure"
+    }
+  },
+  "requirements": [
+    [
+      "bastion_treasure"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "arqueoutils:luminis_core",
+  "base": "minecraft:diamond_leggings",
+  "result": {
+    "id": "arqueoutils:luminis_leggings"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

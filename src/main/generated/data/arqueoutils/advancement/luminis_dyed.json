@@ -1,0 +1,89 @@
+{
+  "parent": "arqueoutils:luminis_armor",
+  "criteria": {
+    "boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:luminis_boots",
+            "predicates": {
+              "minecraft:dyed_color": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:luminis_chestplate",
+            "predicates": {
+              "minecraft:dyed_color": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:luminis_helmet",
+            "predicates": {
+              "minecraft:dyed_color": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:luminis_leggings",
+            "predicates": {
+              "minecraft:dyed_color": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.full_dyed_luminis.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "components": {
+        "minecraft:dyed_color": 5617384
+      },
+      "count": 1,
+      "id": "arqueoutils:luminis_chestplate"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.full_dyed_luminis"
+    }
+  },
+  "requirements": [
+    [
+      "helmet"
+    ],
+    [
+      "chestplate"
+    ],
+    [
+      "leggings"
+    ],
+    [
+      "boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

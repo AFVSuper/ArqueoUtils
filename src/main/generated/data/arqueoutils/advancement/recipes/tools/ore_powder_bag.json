@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ore_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:ore_powder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "arqueoutils:ore_powder_bag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ore_powder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arqueoutils:ore_powder_bag"
+    ]
+  }
+}

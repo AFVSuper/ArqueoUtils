@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:wind_relic",
+  "criteria": {
+    "wind_trident": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:wind_trident"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.wind_trident.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:wind_trident"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.wind_trident"
+    }
+  },
+  "requirements": [
+    [
+      "wind_trident"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

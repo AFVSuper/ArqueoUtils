@@ -1,0 +1,36 @@
+{
+  "parent": "arqueoutils:invis_ink",
+  "criteria": {
+    "invis_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:trimmable_armor",
+            "predicates": {
+              "arqueoutils:invisible_dyed": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.invis_armor.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.invis_armor"
+    }
+  },
+  "requirements": [
+    [
+      "invis_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

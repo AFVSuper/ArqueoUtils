@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:root",
+  "criteria": {
+    "magnet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:magnet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.magnet.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:magnet"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.magnet"
+    }
+  },
+  "requirements": [
+    [
+      "magnet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "arqueoutils:use_scroll",
+  "criteria": {
+    "legendary_scroll": {
+      "conditions": {
+        "quality": 4
+      },
+      "trigger": "minecraft:apply_scroll_criterion"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.legendary_scroll.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "components": {
+        "arqueoutils:scroll_quality": 4,
+        "arqueoutils:scroll_type": "damage"
+      },
+      "count": 1,
+      "id": "arqueoutils:upgrade_scroll"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.legendary_scroll"
+    }
+  },
+  "requirements": [
+    [
+      "legendary_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

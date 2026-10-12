@@ -1,0 +1,33 @@
+{
+  "parent": "arqueoutils:root",
+  "criteria": {
+    "get_scroll": {
+      "conditions": {
+        "items": [
+          {
+            "items": "arqueoutils:upgrade_scroll"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.arqueoutils.get_scroll.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "arqueoutils:upgrade_scroll"
+    },
+    "title": {
+      "translate": "advancements.arqueoutils.get_scroll"
+    }
+  },
+  "requirements": [
+    [
+      "get_scroll"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
